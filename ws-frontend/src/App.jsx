@@ -1,9 +1,10 @@
 import "./App.css";
+import ListEmployeeComponent from "./components/ListEmployeeComponent";
 
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <ListEmployeeComponent />
     </>
   );
 }
