@@ -6,6 +6,12 @@ export default defineConfig({
   plugins: [react()],
 
   server: {
-    port: 3000,
+    port: 3000, //local server
+  },
+
+  preview: {
+    host: "0.0.0.0",
+    port: 8080, //production server
+    allowedHosts: ["mellow-possibility-production-d2f6.up.railway.app"],
   },
 });
